@@ -9,7 +9,7 @@ framework's own annotations.
 ## Why it exists
 
 An original idea, not a port of an existing competitor — validated
-against `CONSTITUTION.md` §1's "Plan B permanente" discipline before
+against this catalog's own idea-validation discipline before
 being built: (1) confirmed no plugin in this catalog or in JetBrains
 Marketplace does exactly this (the closest results in a Marketplace
 search are full IDE-suite plugins like Toolset without this feature
@@ -69,8 +69,8 @@ shows one it can back with the real spec.
 - **The status table is a fixed, hand-rolled spec, never a
   dependency or generated at runtime** — sourced from RFC 9110 §15
   and the real IANA HTTP Status Code Registry, same pattern already
-  proven in this catalog for `NginxDirectiveIndex` (see
-  `CONSTITUTION.md` §6). Deliberately includes real-but-less-common
+  proven in this catalog for `NginxDirectiveIndex`. Deliberately
+  includes real-but-less-common
   codes from other RFCs in the same registry (WebDAV's 207/422/423/424,
   451 "Unavailable For Legal Reasons", 425 "Too Early") that
   developers do actually type, while deliberately excluding
