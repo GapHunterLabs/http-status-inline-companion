@@ -26,8 +26,8 @@ import dev.gaphunter.httpstatusinlinecompanion.model.HttpStatusRegistry
  * 1. **Resolution is expensive and this runs on every daemon pass.**
  *    A highlighting pass that resolves every method call it walks past
  *    is a well-known source of editor lag on large files -- this
- *    catalog already avoids that class of bug elsewhere (see
- *    `CONSTITUTION.md` §6 "cómputo pesado siempre fuera del EDT"; this
+ *    catalog already avoids that class of bug elsewhere (heavy
+ *    computation always off the EDT); this
  *    goes further and keeps the *whole* scan cheap enough that moving
  *    it off the EDT was never even a question).
  * 2. **The same method-name convention repeats across frameworks and

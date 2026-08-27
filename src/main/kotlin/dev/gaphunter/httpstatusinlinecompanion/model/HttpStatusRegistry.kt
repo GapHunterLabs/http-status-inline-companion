@@ -7,7 +7,7 @@ package dev.gaphunter.httpstatusinlinecompanion.model
  * (https://www.iana.org/assignments/http-status-codes). This table is
  * never inferred/generated -- it's a fixed real-world spec, same
  * "hand-roll a small stable table instead of a dependency" pattern
- * already proven for `NginxDirectiveIndex` (see `CONSTITUTION.md` §6).
+ * already proven for `NginxDirectiveIndex`.
  *
  * Deliberately includes codes from RFCs beyond just 9110 that are part
  * of the same official IANA registry and appear routinely in real code
