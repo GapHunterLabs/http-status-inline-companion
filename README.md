@@ -8,18 +8,7 @@ framework's own annotations.
 
 ## Why it exists
 
-An original idea, not a port of an existing competitor — validated
-against this catalog's own idea-validation discipline before
-being built: (1) confirmed no plugin in this catalog or in JetBrains
-Marketplace does exactly this (the closest results in a Marketplace
-search are full IDE-suite plugins like Toolset without this feature
-isolated on its own); (2) confirmed buildable in the ~10-day budget
-with a technique this catalog already has proven — the same inlay
-rendering mechanism Error Lens Companion and Regex Named Group
-Companion already ship. Same "apuesta consciente sin ancla de
-mercado" treatment as Refactor Simulator / Test Scaffold Companion:
-v0.1 ships free, no time/marketing investment disproportionate to
-real demand signal until there's evidence of adoption.
+An original idea, not a port of an existing competitor. Before building it I confirmed that no plugin in JetBrains Marketplace does exactly this: the closest results are full IDE-suite plugins like Toolset, without this feature on its own. It uses the same inlay rendering that Error Lens Companion and Regex Named Group Companion already ship. It is free.
 
 ## Detection heuristic
 
